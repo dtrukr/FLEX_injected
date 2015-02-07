@@ -41,7 +41,10 @@ __attribute__((visibility("hidden")))
 	id setting = [settings objectForKey:[NSString stringWithFormat:@"FLEXInjectedEnabled-%@", [NSBundle mainBundle].bundleIdentifier]];
 	if (setting && [setting boolValue]) {
 
-		[[FLEXManager sharedManager] showExplorer];
+	NSLog(@"Openning explorer: %@", [FLEXManager sharedManager]);
+	[[FLEXManager sharedManager] showExplorer];
+
+
 	} 
 	
 }
@@ -51,6 +54,6 @@ __attribute__((visibility("hidden")))
 
 %ctor {
 
-    [[NSNotificationCenter defaultCenter] addObserver:[FLEXInjected sharedInstance] selector:@selector(inject) name:UIApplicationDidFinishLaunchingNotification object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:[FLEXInjected sharedInstance] selector:@selector(inject) name:UIApplicationDidBecomeActiveNotification object:nil];
 
 }

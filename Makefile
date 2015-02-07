@@ -1,4 +1,4 @@
-ARCHS = armv7 arm64
+ARCHS = armv7 armv7s arm64
 include theos/makefiles/common.mk
 
 ADDITIONAL_CFLAGS = -fobjc-arc -Os -Qunused-arguments -Itemp -Wno-c++11-extensions -Xclang -fobjc-runtime-has-weak
