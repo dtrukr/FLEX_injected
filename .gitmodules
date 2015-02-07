@@ -1,0 +1,3 @@
+[submodule "FLEX"]
+	path = FLEX
+	url = https://github.com/Flipboard/FLEX.git

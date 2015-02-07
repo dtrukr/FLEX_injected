@@ -1,0 +1,28 @@
+entry = {
+  bundle = AppList;
+  cell = PSLinkCell;
+  icon = "/Library/PreferenceLoader/Preferences/FLEXInjected.png";
+  isController = 1;
+  label = FLEXInjected;
+  ALSettingsPath = "/var/mobile/Library/Preferences/com.daapps.FLEXInjected.plist";
+  ALSettingsKeyPrefix = "FLEXInjectedEnabled-";
+  ALChangeNotification = "com.daapps.FLEXInjected.settingschanged";
+  ALSettingsDefaultValue = 0;
+  ALSectionDescriptors = (
+  	{
+  	  title = "System Applications";
+  	  predicate = "(isSystemApplication = TRUE)";
+  	  "cell-class-name" = "ALSwitchCell";
+  	  "icon-size" = 29;
+  	  "suppress-hidden-apps" = 1;
+  	},
+  	{
+  	  title = "User Applications";
+  	  predicate = "(isSystemApplication = FALSE)";
+  	  "cell-class-name" = "ALSwitchCell";
+  	  "icon-size" = 29;
+  	  "suppress-hidden-apps" = 1;
+  	  "footer-title" = "© 2010-2015 Dennis Torbichuk\n© 2015 Flipboard/FLEX";
+  	}
+  );
+};

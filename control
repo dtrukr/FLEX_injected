@@ -1,0 +1,9 @@
+Package: com.daapps.FLEXInjected
+Name: FLEXInjected
+Depends: firmware (>= 6), mobilesubstrate, preferenceloader (>= 2.2), applist (>= 1.5.3)
+Architecture: iphoneos-arm
+Description: Injection library that allows inspection of 3rd party apps with FLEX
+Maintainer: Den <dtrukr@gmail.com>
+Author: Den <dtrukr@gmail.com>
+Section: Development
+Version: 0.0.1-1
