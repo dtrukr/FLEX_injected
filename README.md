@@ -1,4 +1,4 @@
-# flexapp_injected
+# FLEX injected
 Injecting FLEX into 3rd party apps with MobileSubstrate
 
 FLEX (Flipboard Explorer - https://github.com/Flipboard/FLEX) is a set of in-app debugging and exploration tools for iOS development.  FLEX is primarily intended to be a tool used in your own apps.  Want to learn how other apps are built? Just inject FLEX library into 3rd party apps and explore.
