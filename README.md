@@ -26,7 +26,7 @@ The tool was tested on iOS8 running on an iPhone 5S.
 
 Download and copy the Debian package to the device; install it:  
 
-    dpkg -i com.daapps.flexinjected_0.0.1-1-3_iphoneos-arm.deb
+    dpkg -i com.daapps.FLEXInjected_0.0.1-1-11_iphoneos-arm.deb
 
 Respring the device:
 
@@ -45,7 +45,7 @@ Finally, choose and app that you want to inspect, kill and restart the App you w
 
 ### How to uninstall
 
- dpkg -r com.daapps.flexinjected
+ dpkg -r com.daapps.FLEXInjected
 
 
 Build
