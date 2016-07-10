@@ -12,7 +12,7 @@ Most users should download the pre-compiled Debian package available under Relea
 
 ### Dependencies
 
-FLEX_injected was tested on iOS 8.1, but it should work on other iOS versions too. A jailbroken device
+FLEX_injected was tested on iOS 9.0.3, but it should work on other iOS versions too. A jailbroken device
 is required. Using Cydia make sure the following packages are installed:
 - dpkg
 - MobileSubstrate
@@ -22,11 +22,11 @@ is required. Using Cydia make sure the following packages are installed:
 
 Most users should first download the latest pre-compiled Debian package available in the release section of the project page at: https://github.com/dtrukr/FLEX_injected/releases
 
-The tool was tested on iOS8 running on an iPhone 5S.
+The tool was tested on iOS9 running on an iPhone 6.
 
 Download and copy the Debian package to the device; install it:  
 
-    dpkg -i com.daapps.FLEXInjected_0.0.1-1-11_iphoneos-arm.deb
+    dpkg -i com.daapps.FLEXInjected_0.0.1-1-7_iphoneos-arm.deb
 
 Respring the device:
 
